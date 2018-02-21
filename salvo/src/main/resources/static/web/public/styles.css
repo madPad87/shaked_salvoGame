@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("images/seigaiha.png");
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+}
+
+tr {
+    background: white;
+}
+
+#mainRow {
+    margin-top: 100px;
+}
+
+#mainRow h1 {
+    margin-bottom: 50px;
+}
+
+#playerOne {
+    width: 280px;
+    height: 100px;
+    background: white;
+    border: 2px solid black;
+    font-size: 20px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#playerTwo h2, #playerOne h2 {
+    font-size: 22px;
+}
+
+#playerTwo {
+    width: 280px;
+    height: 100px;
+    background: white;
+    border: 2px solid black;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bodyImage {
+    position: absolute;
+    background-image: url("../public/images/seigaiha.png");
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+#bodyShip {
+    position: absolute;
+    background-image: url("../public/images/boat.jpg");
+    background-size: cover;
+    top: 70px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+
+#playerName {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-weight: bold;
+}
+
+#logOut {
+    position: absolute;
+    top: 60px;
+    right: 75px;
+    display: none;
+}
+
+#flex {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+#container1 {
+	outline:3px solid white;
+	height:500px;
+	width:500px;
+	padding: 0;
+	margin: 0;
+	font-size: 25px;
+	display: flex;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    background: black;
+    color: white;
+}
+
+#container2 {
+	outline:3px solid white;
+	height:500px;
+	width:500px;
+	padding: 0;
+	margin: 0;
+	font-size: 25px;
+	display: flex;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    background: black;
+    color: white;
+}
+
+.grid1 {
+    width: 50px;
+    height: 50px;
+	margin:0;
+	padding:0;
+	border:none;
+	outline:1px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: none;
+}
+
+.grid2 {
+    width: 50px;
+    height: 50px;
+	margin:0;
+	padding:0;
+	border:none;
+	outline:1px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: none;
+}
+
+#logo {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#createGame {
+    margin-top: 50px;
+}
+
+#salvoesDiv, #shipsDiv {
+    margin-top: 70px;
+
+}
+
+#myForm, #signUp {
+    display: none;
+}
+
+#signUp {
+    float: right;
+}
+
+#myForm {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+      background: gray;
+        width: 300px;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 30px;
+}
+
+.logOutDiv {
+    text-align: center;
+}
+
+#error {
+    margin-top: 10px;
+    font-weight: bold;
+}
